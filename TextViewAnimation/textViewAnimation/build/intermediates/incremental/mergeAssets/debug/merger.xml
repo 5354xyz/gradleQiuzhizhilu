@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/library/unspecified/assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/assets" >
+            <file
+                name="emoji"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/assets/emoji" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/debug/assets" />
+    </dataSet>
+
+</merger>

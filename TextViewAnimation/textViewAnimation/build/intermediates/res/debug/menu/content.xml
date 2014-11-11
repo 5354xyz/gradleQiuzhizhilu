@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/contomain"/>
+
+</menu><!-- From: file:/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/content.xml -->

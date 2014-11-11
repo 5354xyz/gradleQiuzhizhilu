@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/res" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/library/unspecified/res" >
+            <file
+                name="slidingmenumain"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/library/unspecified/res/layout/slidingmenumain.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/library/unspecified/res/values/values.xml"
+                qualifiers="" >
+                <item
+                    name="selected_view"
+                    type="id"/>
+
+                <declare-styleable name="SlidingMenu" >
+                    <attr name="mode" >
+                        <enum
+                            name="left"
+                            value="0" />
+                        <enum
+                            name="right"
+                            value="1" />
+                    </attr>
+                    <attr
+                        name="viewAbove"
+                        format="reference" />
+                    <attr
+                        name="viewBehind"
+                        format="reference" />
+                    <attr
+                        name="behindOffset"
+                        format="dimension" />
+                    <attr
+                        name="behindWidth"
+                        format="dimension" />
+                    <attr
+                        name="behindScrollScale"
+                        format="float" />
+                    <attr name="touchModeAbove" >
+                        <enum
+                            name="margin"
+                            value="0" />
+                        <enum
+                            name="fullscreen"
+                            value="1" />
+                        <enum
+                            name="none"
+                            value="2" />
+                    </attr>
+                    <attr name="touchModeBehind" >
+                        <enum
+                            name="margin"
+                            value="0" />
+                        <enum
+                            name="fullscreen"
+                            value="1" />
+                        <enum
+                            name="none"
+                            value="2" />
+                    </attr>
+                    <attr
+                        name="shadowDrawable"
+                        format="reference" />
+                    <attr
+                        name="shadowWidth"
+                        format="dimension" />
+                    <attr
+                        name="fadeEnabled"
+                        format="boolean" />
+                    <attr
+                        name="fadeDegree"
+                        format="float" />
+                    <attr
+                        name="selectorEnabled"
+                        format="boolean" />
+                    <attr
+                        name="selectorDrawable"
+                        format="reference" />
+                </declare-styleable>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res" >
+            <file
+                name="ic_action_search"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-hdpi-v4/ic_action_search.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-mdpi-v4/ic_action_search.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-xhdpi-v4/ic_action_search.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" />
+
+                <declare-styleable name="FlipViewController" >
+                    <attr
+                        name="orientation"
+                        format="enum" >
+                        <enum
+                            name="vertical"
+                            value="0" />
+                        <enum
+                            name="horizontal"
+                            value="1" />
+                    </attr>
+                    <attr
+                        name="animationBitmapFormat"
+                        format="enum" >
+                        <enum
+                            name="ARGB_8888"
+                            value="0" />
+                        <enum
+                            name="ARGB_4444"
+                            value="1" />
+                        <enum
+                            name="RGB_565"
+                            value="2" />
+                    </attr>
+                </declare-styleable>
+
+                <string name="app_name" >Flip-Library
+                </string>
+            </file>
+            <file
+                name="icon_defualt"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/intermediates/exploded-aar/TextViewAnimation/bAnim_FilpLibrary/unspecified/res/drawable-hdpi-v4/icon_defualt.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res" >
+            <file
+                name="base_slide_remain"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/base_slide_remain.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="base_slide_right_in"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/base_slide_right_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="base_slide_right_out"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/base_slide_right_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="block_move_right"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/block_move_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="content_down"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/content_down.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="content_up"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/content_up.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="dialog_anim_enter"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/dialog_anim_enter.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="dialog_anim_exit"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/dialog_anim_exit.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="hyperspace_jump"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/hyperspace_jump.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="in_translate_top"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/in_translate_top.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="list_anim"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/list_anim.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="list_anim_layout"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/list_anim_layout.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="loading_anim"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/loading_anim.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="loading_anim_layout"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/loading_anim_layout.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="loading_animation"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/loading_animation.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="loading_app_image"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/loading_app_image.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="out_translate_top"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/out_translate_top.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_left_in"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/push_left_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_left_out"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/push_left_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_up_out"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/push_up_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="small_2_big"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/small_2_big.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="zoomin"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/zoomin.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="zoomout"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/anim/zoomout.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="about"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/about.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="account"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/account.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="back"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/back.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="background_login"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/background_login.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="background_login_div_bg"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/background_login_div_bg.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_alibuybutton_default"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/bg_alibuybutton_default.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_alibuybutton_pressed"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/bg_alibuybutton_pressed.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_alibuybutton_selected"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/bg_alibuybutton_selected.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_alibuybutton_states"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/bg_alibuybutton_states.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="biaoqing32"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/biaoqing32.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="black_bg"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/black_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="blue_bk_but"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/blue_bk_but.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="blue_but_40"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/blue_but_40.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="blue_button"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/blue_button.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="blue_rectangle"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/blue_rectangle.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="camera"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/camera.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="checkbox_normal"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/checkbox_normal.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="checkbox_pressed"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/checkbox_pressed.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="checkbox_style"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/checkbox_style.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="closebut_60"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/closebut_60.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="comment_50"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/comment_50.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="comment_60"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/comment_60.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="content_bk_1"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/content_bk_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="content_bk_2"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/content_bk_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="content_bk_3"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/content_bk_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="content_bk_4"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/content_bk_4.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="content_bk_5"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/content_bk_5.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="custom_progressbar"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/custom_progressbar.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="dialog_bg"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/dialog_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="div"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/div.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="down"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/down.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="down1"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/down1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="exit"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/exit.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="face_del_icon"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/face_del_icon.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="feature_guide_0"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/feature_guide_0.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="feature_guide_1"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/feature_guide_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="feature_guide_2"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/feature_guide_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="feature_guide_3"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/feature_guide_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="femal_touxiang_default"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/femal_touxiang_default.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="fenge"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/fenge.gif"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="gray_bk_but"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/gray_bk_but.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="green_but"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/green_but.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="green_rectangle"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/green_rectangle.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_bg_empty"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/ic_bg_empty.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher144"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/ic_launcher144.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher48"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/ic_launcher48.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pic_selected"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/ic_pic_selected.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon_defualt"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/icon_defualt.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="iv_face"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/iv_face.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="kouhao"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/kouhao.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="loading"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/loading.gif"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="loading_bk"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/loading_bk.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="loading_image"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/loading_image.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="location"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/location.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="login_bg"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/login_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="logo"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/logo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="lv_backtotop"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/lv_backtotop.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="main_but"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/main_but.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="male_touxiang_default"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/male_touxiang_default.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="page_indicator"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/page_indicator.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="page_indicator_focused"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/page_indicator_focused.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="publicloading"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/publicloading.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pulltorefresh_down_arrow"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/pulltorefresh_down_arrow.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pulltorefresh_up_arrow"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/pulltorefresh_up_arrow.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="qiuzhizhilu"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/qiuzhizhilu.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="red_but_bk"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/red_but_bk.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="red_rectangle"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/red_rectangle.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="reflesh"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/reflesh.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="roundbord"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/roundbord.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="rounded_edittext"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/rounded_edittext.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="sendcomment"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/sendcomment.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="slidingmenu_background"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/slidingmenu_background.jpg.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="slidingmenu_focus_for_item"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/slidingmenu_focus_for_item.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="slidingmenu_shadow"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/slidingmenu_shadow.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="test_logo"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/test_logo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_back"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_back.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_back_n"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_back_n.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_back_right"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_back_right.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_back_right_n"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_back_right_n.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_back_right_s"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_back_right_s.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_back_s"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_back_s.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_bg"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_comm"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_comm.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_comm_disable"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_comm_disable.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_comm_n"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_comm_n.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="title_comm_s"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/title_comm_s.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="toolbar_background"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/toolbar_background.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="toolbar_right_back_image"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/toolbar_right_back_image.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="toolbar_right_button_image"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/toolbar_right_button_image.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="tospilt"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/tospilt.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="tospilt_write"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/tospilt_write.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="tupian"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/tupian.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="up"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/up.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="up1"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/up1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="yellow_rectangle"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-hdpi/yellow_rectangle.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="dd1"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/dd1.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="dd2"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/dd2.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_1"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_1.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_10"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_10.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_11"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_11.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_12"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_12.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_13"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_13.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_14"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_14.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_15"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_15.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_16"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_16.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_17"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_17.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_179"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_179.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_18"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_18.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_180"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_180.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_181"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_181.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_182"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_182.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_183"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_183.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_184"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_184.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_185"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_185.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_186"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_186.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_187"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_187.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_188"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_188.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_189"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_189.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_19"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_19.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_190"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_190.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_191"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_191.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_192"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_192.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_193"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_193.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_194"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_194.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_195"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_195.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_196"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_196.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_197"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_197.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_198"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_198.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_199"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_199.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_2"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_2.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_20"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_20.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_200"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_200.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_201"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_201.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_202"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_202.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_203"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_203.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_204"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_204.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_205"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_205.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_206"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_206.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_207"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_207.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_208"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_208.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_209"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_209.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_21"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_21.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_210"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_210.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_211"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_211.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_212"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_212.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_213"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_213.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_214"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_214.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_215"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_215.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_216"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_216.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_217"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_217.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_218"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_218.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_219"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_219.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_22"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_22.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_220"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_220.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_221"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_221.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_222"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_222.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_223"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_223.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_224"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_224.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_23"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_23.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_24"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_24.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_25"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_25.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_26"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_26.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_27"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_27.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_28"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_28.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_29"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_29.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_3"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_3.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_30"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_30.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_31"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_31.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_32"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_32.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_33"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_33.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_34"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_34.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_35"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_35.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_36"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_36.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_37"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_37.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_38"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_38.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_39"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_39.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_4"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_4.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_40"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_40.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_41"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_41.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_42"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_42.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_43"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_43.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_44"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_44.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_45"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_45.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_46"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_46.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_47"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_47.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_48"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_48.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_49"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_49.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_5"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_5.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_50"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_50.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_51"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_51.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_52"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_52.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_53"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_53.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_54"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_54.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_55"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_55.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_56"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_56.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_57"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_57.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_58"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_58.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_59"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_59.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_6"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_6.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_60"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_60.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_61"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_61.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_62"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_62.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_63"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_63.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_64"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_64.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_65"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_65.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_66"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_66.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_67"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_67.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_68"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_68.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_69"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_69.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_7"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_7.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_70"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_70.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_71"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_71.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_8"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_8.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="emoji_9"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/emoji_9.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="face_del_ico_dafeult"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/face_del_ico_dafeult.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="face_del_ico_pressed"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/face_del_ico_pressed.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="iv_face_pressed"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/drawable-ldpi/iv_face_pressed.9.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="about_dialog"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/about_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="account_dialog"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/account_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_comment"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_comment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_content"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_listview_refresh_footer"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_listview_refresh_footer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_listview_refresh_header"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_listview_refresh_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_loading"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_loading.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_login"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_login.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_post"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_post.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_register"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/activity_register.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="comment_list_item"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/comment_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="comment_list_null"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/comment_list_null.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="comment_list_title"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/comment_list_title.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="intrest_dialog"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/intrest_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item01"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/item01.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item02"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/item02.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item03"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/item03.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item04"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/item04.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_face"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/item_face.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="loading"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/loading.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pull_to_refresh_header"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/pull_to_refresh_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pull_to_refresh_list"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/pull_to_refresh_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slidingmenu"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/slidingmenu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slidingmenu_framelayout"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/slidingmenu_framelayout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slidingmenu_inner_grid_item"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/slidingmenu_inner_grid_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spilt_list_item"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/layout/spilt_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="comment"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/comment.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="content"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/content.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="loading"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/loading.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="login"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/login.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="mymenu"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/mymenu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="post"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/post.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="register"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/register.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="spilt_out"
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/menu/spilt_out.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="roundedimageview" >
+                    <attr
+                        name="border_thickness"
+                        format="dimension" />
+                    <attr
+                        name="border_color"
+                        format="color" />
+                </declare-styleable>
+                <declare-styleable name="PullToRefresh" >
+                    <attr
+                        name="adapterViewBackground"
+                        format="reference|color" />
+                    <attr
+                        name="headerBackground"
+                        format="reference|color" />
+                    <attr
+                        name="headerTextColor"
+                        format="color" />
+                    <attr name="mode_01" >
+                        <flag
+                            name="pullDownFromTop"
+                            value="0x1" />
+                        <flag
+                            name="pullUpFromBottom"
+                            value="0x2" />
+                        <flag
+                            name="both"
+                            value="0x3" />
+                    </attr>
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="transparent" >#00000000
+                </color>
+                <color name="white" >#FFFFFFFF
+                </color>
+                <color name="black" >#FF000000
+                </color>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="slidingmenu_shadow_width" >15dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="slidingmenu_offset" >60dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values/pull_refresh_strings.xml"
+                qualifiers="" >
+                <string name="pull_to_refresh_refreshing_label" >载入中…
+                </string>
+                <string name="pull_to_refresh_tap_label" >Tap to refresh…
+                </string>
+                <string name="pull_to_refresh_pull_label" >下拉刷新…
+                </string>
+                <string name="pull_to_refresh_release_label" >释放刷新…
+                </string>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="read" >阅读
+                </string>
+                <string name="title_activity_login" >LoginActivity
+                </string>
+                <string name="mianjing" >随便看看
+                </string>
+                <string name="defaulttime" >时间加载失败
+                </string>
+                <string name="hot_comment_list" >人气评论
+                </string>
+                <string name="login_register_link" >没有账号？ 
+<a href="register" >
+注册
+                    </a></string>
+                <string name="entertainment" >娱乐
+                </string>
+                <string name="accountclear" >注销账号
+                </string>
+                <string name="image_num_show_text" >0/0
+                </string>
+                <string name="title_activity_loading" >LoadingActivity
+                </string>
+                <string name="email" >*  邮    箱  ：
+                </string>
+                <string name="send" >发送
+                </string>
+                <string name="exit" >退出
+                </string>
+                <string name="accountchange" >更换账号
+                </string>
+                <string name="male" >男
+                </string>
+                <string name="comment" >Comments
+                </string>
+                <string name="register_label_username" >*个人昵称：
+                </string>
+                <string name="sport" >运动
+                </string>
+                <string name="lasttimeofrefresh" >上次刷新:01–01 10:10
+                </string>
+                <string name="reflesh" >刷新
+                </string>
+                <string name="title_activity_guide_view" >导航
+                </string>
+                <string name="travel" >旅游
+                </string>
+                <string name="default_news" >暂无数据
+                </string>
+                <string name="cancel" >取消
+                </string>
+                <string name="contomain" >回到主界面
+                </string>
+                <string name="null_" ></string>
+                <string name="about_banben" >版本：1.0
+                </string>
+                <string name="comment_e" >评论
+                </string>
+                <string name="comment_list" >评论列表
+                </string>
+                <string name="title_activity_comment" >CommentActivity
+                </string>
+                <string name="login_text" >求职之路
+                </string>
+                <string name="register_hint_pass" >大于6位
+                </string>
+                <string name="about_member" >小组成员：萧仪宗
+                </string>
+                <string name="down" >down
+                </string>
+                <string name="new_comment_list" >最新评论
+                </string>
+                <string name="logining" >正在登录ing……
+                </string>
+                <string name="login_username_hint" >email或手机号
+                </string>
+                <string name="register_submit" >注册
+                </string>
+                <string name="int_dialog_notice" >请选择你的兴趣爱好\(^o^)/~
+                </string>
+                <string name="dialog" >正在加載中…
+                </string>
+                <string name="leftcount" >剩余:
+                </string>
+                <string name="comfirm" >确定
+                </string>
+                <string name="login_label_signin" >没有账号？
+                </string>
+                <string name="remeber_pass" >是否记住密码
+                </string>
+                <string name="title_activity_post" >PostActivity
+                </string>
+                <string name="mykeepping" >我的收藏
+                </string>
+                <string name="news" >新闻
+                </string>
+                <string name="split_title_text" >有神马不开心的？说出来让大家开心一下
+                </string>
+                <string name="loadnextten" >正在玩命加载后面十条....
+                </string>
+                <string name="register_hint_username" >字母or数字
+                </string>
+                <string name="joke" >笑话
+                </string>
+                <string name="login_label_username" >账号
+                </string>
+                <string name="interest" >  兴    趣  ：
+                </string>
+                <string name="title_activity_register" >RegisterActivity
+                </string>
+                <string name="pulltorefresh" >下拉刷新
+                </string>
+                <string name="register_confirm_pass" >*确认密码：
+                </string>
+                <string name="headSculpture" >头像
+                </string>
+                <string name="login_label" >登录…
+                </string>
+                <string name="defaultname" >你好，游客
+                </string>
+                <string name="maxcount" >140
+                </string>
+                <string name="register_label_pass" >*  密    码  ：
+                </string>
+                <string name="about" >关于
+                </string>
+                <string name="hello_world" >Hello
+                </string>
+                <string name="about_time" >时间： 2013、11、22
+                </string>
+                <string name="login_label_password" >密码
+                </string>
+                <string name="register" >注册
+                </string>
+                <string name="gender" >*  性    别  ：
+                </string>
+                <string name="female" >女
+                </string>
+                <string name="spilt" >吐槽一下O(∩_∩)O~~
+                </string>
+                <string name="hot" >hot
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >求职之路
+                </string>
+                <string name="title_activity_content" >ContentActivity
+                </string>
+                <string name="writecomment" >发表评论
+                </string>
+                <string name="back" >返回
+                </string>
+                <string name="myspilt" >我的吐槽
+                </string>
+                <string name="mywish" >猜你喜欢
+                </string>
+                <string name="backtomain" >暂不登录
+                </string>
+                <string name="up" >up
+                </string>
+                <string name="new_defualt_tips" >暂无最新评论
+                </string>
+                <string name="title_activity_spilt_out" >SpiltOutActivity
+                </string>
+                <string name="spilt_s" >吐了个槽
+                </string>
+                <string name="hot_defualt_tips" >暂无最热评论
+                </string>
+                <string name="everydaysub" >每日话题
+                </string>
+                <string name="personalcenter" >个人中心
+                </string>
+                <string name="game" >游戏
+                </string>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="big_white_text" >
+                    <item name="android:textSize">
+25sp
+                    </item>
+                    <item name="android:textColor">
+#FFFFFF
+                    </item>
+                </style>
+
+                <style
+                    name="titlebarstyle"
+                    parent="android:Theme" >
+                    <item name="android:windowTitleSize">
+30dp
+                    </item>
+                    <item name="android:windowTitleBackgroundStyle">
+@style/CustomizedWindowTitleBackgroundColor
+                    </item>
+                </style>
+
+                <style name="MainactivityWindowTitleBackgroundColor" >
+                    <item name="android:background">
+@drawable/bg_alibuybutton_selected
+                    </item>
+                </style>
+
+                <style name="toolbar_right_button_image" >
+                    <item name="android:background">
+@drawable/reflesh
+                    </item>
+                </style>
+
+                <style name="toolbar_left_button_text" >
+                    <item name="android:textSize">
+14sp
+                    </item>
+                    <item name="android:textColor">
+#0A0A0A
+                    </item>
+                </style>
+
+                <style name="titlebar_mainactivity_image" >
+                    <item name="android:background">
+@drawable/icon_defualt
+                    </item>
+                </style>
+
+                <style
+                    name="Maintitlebarstyle"
+                    parent="android:Theme" >
+                    <item name="android:windowTitleSize">
+30dp
+                    </item>
+                    <item name="android:windowTitleBackgroundStyle">
+@style/MainactivityWindowTitleBackgroundColor
+                    </item>
+                </style>
+
+                <style
+                    name="CustomCheckboxTheme"
+                    parent="@android:style/Widget.CompoundButton.CheckBox" >
+                    <item name="android:button">
+@drawable/checkbox_style
+                    </item>
+                </style>
+
+                <style
+                    name="custom_dialog"
+                    parent="@android:style/Theme.Dialog" >
+                    <item name="android:windowFrame">
+@null
+                    </item> <!-- Dialog的windowFrame框为无 -->
+                    <item name="android:windowIsFloating">
+true
+                    </item> <!-- 是否漂现在activity上 -->
+                    <item name="android:windowIsTranslucent">
+true
+                    </item> <!-- 是否半透明 -->
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:background">
+@android:color/transparent
+                    </item>
+                    <item name="android:windowBackground">
+@android:color/transparent
+                    </item> <!-- 去除黑色边框的关键设置项 -->
+                    <item name="android:backgroundDimEnabled">
+true
+                    </item> <!-- 屏幕背景是否变暗 -->
+                    <item name="android:backgroundDimAmount">
+0.8
+                    </item>
+                </style>
+
+                <style
+                    name="Splittitlebarstyle"
+                    parent="android:Theme" >
+                    <item name="android:windowTitleSize">
+30dp
+                    </item>
+                    <item name="android:windowTitleBackgroundStyle">
+@style/SpiltactivityWindowTitleBackgroundColor
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style name="toolbar_text" >
+                    <item name="android:textSize">
+15sp
+                    </item>
+                    <item name="android:textColor">
+#0A0A0A
+                    </item>
+                </style>
+
+                <style
+                    name="transparent_dialog"
+                    parent="@android:style/Theme.Dialog" >
+                    <item name="android:windowFrame">
+@null
+                    </item> <!-- 边框 -->
+                    <item name="android:windowIsFloating">
+true
+                    </item> <!-- 是否浮现在activity之上 -->
+                    <item name="android:windowIsTranslucent">
+false
+                    </item> <!-- 半透明 -->
+                    <item name="android:windowNoTitle">
+true
+                    </item> <!-- 无标题 -->
+                    <item name="android:windowBackground">
+@color/transparent
+                    </item> <!-- 背景透明 -->
+                    <item name="android:backgroundDimEnabled">
+false
+                    </item> <!-- 模糊 -->
+                </style>
+
+                <style
+                    name="ContentTitleBarStyle"
+                    parent="android:Theme" >
+                    <item name="android:windowTitleSize">
+32dp
+                    </item>
+                </style>
+
+                <style name="SpiltactivityWindowTitleBackgroundColor" >
+                    <item name="android:background">
+#6699FF
+                    </item>
+                </style>
+
+                <style
+                    name="MyDialog"
+                    parent="@android:Theme.Dialog" >
+                    <item name="android:windowFrame">
+@null
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:windowBackground">
+@drawable/dialog_bg
+                    </item>
+                    <item name="android:windowIsFloating">
+true
+                    </item>
+                    <item name="android:windowContentOverlay">
+@null
+                    </item>
+                </style>
+
+                <style name="normalText" >
+                    <item name="android:textSize">
+18sp
+                    </item>
+                    <item name="android:textColor">
+#008
+                    </item>
+                </style>
+
+                <style name="CustomizedWindowTitleBackgroundColor" >
+                    <item name="android:background">
+#B0E0E6
+                    </item>
+                </style>
+
+                <style
+                    name="InterestDialog"
+                    parent="@android:Theme.Dialog" >
+                    <item name="android:windowFrame">
+@null
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:windowBackground">
+@drawable/bg_alibuybutton_default
+                    </item>
+                    <item name="android:windowIsFloating">
+true
+                    </item>
+                    <item name="android:windowContentOverlay">
+@null
+                    </item>
+                    <item name="@android:windowEnterAnimation">
+@anim/dialog_anim_enter
+                    </item>
+                    <item name="@android:windowExitAnimation">
+@anim/dialog_anim_exit
+                    </item>
+                </style>
+
+                <style name="toolbar_right_button_text" >
+                    <item name="android:textSize">
+14sp
+                    </item>
+                    <item name="android:textColor">
+#0A0A0A
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="toolbar_left_button_image" >
+                    <item name="android:background">
+@drawable/back
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/generated/res/rs/debug" />
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/xiaoyizong/workspace/xyz/TextViewAnimation/textViewAnimation/src/debug/res" />
+    </dataSet>
+
+</merger>
